@@ -4,31 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FitLife Hub</title>
-    <!-- CSS Link -->
     <link rel="stylesheet" href="fitness.css">
-    <!-- Font Awesome CDN -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
     <!-- Header -->
     <header class="header">
-        <a href="#" class="logo">
+        <div class="logo">
             <i class="fas fa-dumbbell"></i> FitLife Hub
-        </a>
-
+        </div>
         <div class="menu-btn">
             <span></span>
             <span></span>
             <span></span>
         </div>
-
         <nav>
             <ul class="nav-links">
                 <li><a href="#home" class="active">Home</a></li>
                 <li><a href="#programs">Programs</a></li>
                 <li><a href="#trainers">Trainers</a></li>
                 <li><a href="#schedule">Schedule</a></li>
-                <li><a href="#success">Success Stories</a></li>
+                <li><a href="#testimonials">Success Stories</a></li>
                 <li><a href="#blog">Blog</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
@@ -39,10 +35,10 @@
     <section id="home" class="home">
         <div class="content">
             <h1>Transform Your Body, Transform Your Life</h1>
-            <p>Join FitLife Hub For A Stronger, Healthier You</p>
+            <p>Join FitLife Hub for a stronger, healthier you</p>
             <div class="cta-buttons">
-                <a href="#" class="btn">Start Your Journey</a>
-                <a href="#" class="btn">View Programs</a>
+                <a href="#" class="btn btn-primary">Start Your Journey</a>
+                <a href="#" class="btn btn-secondary">View Programs</a>
             </div>
             <div class="stats">
                 <div class="stat-item">
@@ -66,7 +62,7 @@
         <h2 class="heading">Our Programs</h2>
         <div class="box-container">
             <div class="box">
-                <img src="program1.jpg" alt="">
+                <img src="program1.jpg" alt="Personal Training">
                 <h3>Personal Training</h3>
                 <p>One-on-One Customized Fitness Programs</p>
                 <ul class="features">
@@ -74,13 +70,62 @@
                     <li>✓ Nutrition Guidance</li>
                     <li>✓ Progress Tracking</li>
                 </ul>
-                <a href="#" class="btn">Join Now</a>
+                <a href="#" class="btn btn-primary">Join Now</a>
             </div>
             <!-- Add more program boxes as needed -->
         </div>
     </section>
 
-    <!-- Add other sections similarly -->
+    <!-- Trainers Section -->
+    <section id="trainers" class="trainers">
+        <h2 class="heading">Expert Trainers</h2>
+        <div class="trainers-grid">
+            <div class="trainer-card">
+                <img src="trainer1.jpg" alt="John Doe">
+                <h3>John Doe</h3>
+                <p>Strength & Conditioning Expert</p>
+                <div class="specialties">
+                    <span>CrossFit</span>
+                    <span>Weight Training</span>
+                    <span>Nutrition</span>
+                </div>
+            </div>
+            <!-- Add more trainer cards -->
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials">
+        <h2 class="heading">Success Stories</h2>
+        <div class="testimonial-card">
+            <p>"Transformed my life in just 6 months!"</p>
+            <h4>Sarah Johnson</h4>
+            <span>Lost 30 pounds</span>
+        </div>
+        <!-- Add more testimonials -->
+    </section>
+
+    <!-- Blog Section -->
+    <section id="blog" class="blog">
+        <h2 class="heading">Latest Articles</h2>
+        <div class="blog-card">
+            <h3>10 Essential Tips for Building Muscle</h3>
+            <p>Learn the secrets to effective muscle building...</p>
+            <a href="#" class="btn btn-secondary">Read More</a>
+        </div>
+        <!-- Add more blog cards -->
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2 class="heading">Get In Touch</h2>
+        <form class="contact-form">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit" class="btn btn-primary">Send Message</button>
+        </form>
+    </section>
 
     <!-- JavaScript -->
     <script src="fitness.js"></script>
